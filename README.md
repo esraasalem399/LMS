@@ -1,6 +1,14 @@
 Edusion Learning Platform ( mini  Learning Management System) :- 
 
 A responsive, modern React-based educational website that offers courses, learning resources, and contact management. This project demonstrates the integration of React components, React Router, Bootstrap, and custom CSS for a full-featured e-learning platform.
+## Screenshots
+
+### Home Page
+![Home Page](./screenshoot/Homepage.png)
+
+### About Page
+![About Page](./screenshoot/Aboutpage.png)
+
 
 Features:-
 
@@ -46,7 +54,7 @@ Technologies Used:-
 6. Responsive Design with Flexbox and Grid
 7. Components Overview
 8. NavBar
-   
+
 Components Overview:-
 A. NavBar:-
       1. Responsive top navigation with sticky behavior.
