@@ -1,71 +1,83 @@
-# Getting Started with Create React App
+Edusion Learning Platform ( mini  Learning Management System) :- 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive, modern React-based educational website that offers courses, learning resources, and contact management. This project demonstrates the integration of React components, React Router, Bootstrap, and custom CSS for a full-featured e-learning platform.
 
-## Available Scripts
+Features:-
 
-In the project directory, you can run:
+1. Responsive Design: Fully responsive layout compatible with desktop, tablet, and mobile devices.
 
-### `npm start`
+2. Home Page: Showcases featured content, key offerings, and learning opportunities.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. OnHome Section: Highlights popular topics and provides a search functionality for courses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Courses Page: Displays a list of courses with category, lessons, duration, rating, level, and price.
 
-### `npm test`
+5. About Page: Provides information about the platform, its mission, vision, and team.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. Contact Page: Interactive contact form with location, email, and phone details.
 
-### `npm run build`
+7. Footer: Includes company info, course links, contact information, and social links.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+8. Animations: Smooth fade-in effects for sections and content for a modern UX.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Reusable Components: ExploreButton, QualityEducation, ExperiencedTeachers, DeliciousFood.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Project Structure
+src/
+├─ Assets/Images/       # All image assets
+├─ SheredComponent/     # Shared React components like buttons and info cards
+├─ Components/          # Main page components (Home, About, Courses, Contact, Footer, NavBar)
+├─ App.js               # Main React App component
+├─ index.js             # React entry point
+├─ CSS/
+│  ├─ LMS.css
+│  ├─ Home.css
+│  ├─ Courses.css
+│  ├─ Contact.css
+│  ├─ Footer.css
+│  └─ ExploreButton.css
 
-### `npm run eject`
+Technologies Used:- 
+1. React
+2. React Router
+3. React Bootstrap
+4. React Icons
+5. Custom CSS
+6. Responsive Design with Flexbox and Grid
+7. Components Overview
+8. NavBar
+   
+Components Overview:-
+A. NavBar:-
+      1. Responsive top navigation with sticky behavior.
+      2. Collapsible menu for mobile devices.
+      3. Links to Home, OnHome, About, Courses, Contact.
+B.Home:-
+      1. Hero section with background image, main headline, and call-to-action button.
+      2. Sections for QualityEducation, ExperiencedTeachers, and DeliciousFood.
+      3. About cards displaying Mission and Vision.
+C.OnHome:-
+      1. Popular topics section with category cards.
+      2. Free courses promotion section.
+      3. Search bar for courses.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+D.Courses:-
+      1. Grid of courses with image, title, category, lessons, duration, rating, level, and price.
+      2. Hover effects on course cards.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+E.About:-
+      1.Informational page with images and text about learning objectives.
+      2.Highlights skills to enhance career opportunities.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+F.Contact:-
+      1.Contact form with name, email, subject, and message fields.
+      2.Company location, phone numbers, and email addresses displayed.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+G.Footer:-
+      1.Divided into sections: Courses, Company, Contact Info.
+      2.Footer bottom includes copyright.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# LMS"  
+H.Styling:-
+      1. Custom CSS for responsive layout, animations, and cards.
+      2. Reusable button and card components.
+      3. Fade-in animations for content on scroll.
